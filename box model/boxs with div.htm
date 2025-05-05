@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> box properties </title>
+        <style>
+            .boxmodel{
+                color: white;
+                margin: 10px 10px 10px 10px ;
+                padding: 5px;
+                height: 30px;
+                width: 250px;
+                align-items: center;
+                border: 2px solid ;
+                border-top-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
+            .innerdiv{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-left: 100px;
+                width: 500px;
+                height: 300px;
+                background-color: blueviolet;
+                overflow: auto;
+            }
+            #first{
+                background-color: green;
+                text-align: center;
+                border-color:green ;
+            }
+            #second{
+                background-color: rgb(47, 93, 192);
+                border-color: rgb(47, 93, 192);
+            }
+            #three{
+                        background-color: orange;
+                        border-color: orange;
+            }
+            #four{
+                background-color: purple;
+                border-color: purple;
+            }
+            #five{
+                background-color: orangered;
+                border-color: orangered;
+            }
+            #six{
+                background-color: rgb(8, 90, 90);
+                border-color: rgb(8, 90, 90);
+            }
+            .main-div{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main-div">
+            <h2> The Bright Place to Build The Best Career Value </h2>
+            <p> Best Opportunity To Learn From Currently Working Professionals </p>
+            <div id="div" class="innerdiv">
+                <div id="first" class="boxmodel"> Online Training </div>
+                <div id="second" class="boxmodel"> Classroom Training </div>
+                <div id="three" class="boxmodel"> Corporate Training </div>
+                <div id="four" class="boxmodel"> Weekend Workshops </div>
+                <div id="five" class="boxmodel"> Placements </div>
+                <div id="six" class="boxmodel"> Internships </div>
+            </div> 
+        </div>
+    </body>
+</html>
